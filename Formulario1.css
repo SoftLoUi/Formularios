@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  justify-content: center;
+  
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  justify-content: center;
+ 
+}
+
+
+
+label {
+  display: inline-block;
+  width: 300px;
+  margin-bottom: 5px;
+  text-align: right;
+  
+  white-space: nowrap;
+  
+}
+
+input[type="text"],
+input[type="number"],
+input[type] {
+  width:  240px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.espacio-dato {
+  display: flex;
+  justify-content: center;
+  
+  margin-bottom: 15px;
+}
+
+.dato {
+  
+  display: flex;
+  align-items: center;
+  flex: 1;
+  text-align: right;
+}
+
+select{
+  width: 70px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 20px;   
+}
